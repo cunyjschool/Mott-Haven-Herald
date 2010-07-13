@@ -1,0 +1,154 @@
+/* Page Nav */
+
+#nav, #nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none; 
+	line-height: 1;
+	z-index: 100;
+}
+
+#nav a {
+	display: block;
+	line-height: 27px;
+	padding: 0 10px;
+	z-index: 100;
+}
+
+#nav li {
+	float: left;
+	background: url(images/bg_separator.gif) no-repeat right 10px;
+}
+
+/* Style drop down list */
+
+#nav li ul {
+	position: absolute;
+	width: 203px;
+	left: -999em;
+}
+
+#nav li:hover ul, #nav li.sfhover ul {
+	left: auto;
+}
+
+#nav li ul li a {
+	background: url(images/bg_page_navi_item.gif) repeat-x;
+	line-height: 35px;
+	font-family: Georgia;
+	font-size: 12px;
+	color: #E0DFE3;
+	width: 183px;
+}
+
+#nav li ul li a {
+	border-right: #2A2A2A 1px solid;
+}
+
+#nav li ul ul {
+	margin: -35px 0 0 204px;
+}
+
+#nav li ul ul li a {
+	line-height: 36px;
+}
+
+#nav li:hover ul ul, #nav li.sfhover ul ul {
+	left: -999em;
+}
+
+#nav li:hover ul, #nav li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul {
+	left: auto;
+}
+
+/* IE7 Fix */
+
+#nav li:hover, #nav li.hover {  
+	position: static;
+}
+
+/* Second Menu */
+
+#secnav, #secnav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none; 
+	line-height: 1;
+}
+
+#secnav a {
+	display: block;
+	line-height: 58px;
+	padding: 0 20px 0 20px;
+	/* line-height: 15px; - Enable if using cat desc */
+	/* padding: 14px 20px 11px 20px; - Enable if using cat desc  */
+	color: #212121;
+}
+
+#secnav li:hover, #secnav li.sfhover1 {
+	background: url(images/bg_cat_navi_hover.gif) repeat-x;
+	cursor: pointer;
+}
+
+#secnav li:hover span, #secnav li.sfhover1 span {
+	color: #fff;
+}
+
+#secnav li {
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* Style drop down list */
+
+#secnav li ul {
+	position: absolute;
+	width: 1em;
+	width: 188px;
+	left: -999em;
+	z-index: 10;
+}
+
+#secnav li li {
+	font-weight: normal;
+}
+
+#secnav li:hover ul, #secnav li.sfhover1 ul {
+	left: auto;
+}
+
+#secnav li ul li a {
+	background: url(images/bg_cat_navi_item.gif) repeat-x;
+	line-height: 36px;
+	color: #565656;
+	font-size: 12px;
+	width: 148px;
+	padding: 0 20px;
+}
+
+#secnav li ul li a {
+	border-right: 1px solid #F5F5F5;
+}
+
+#secnav li ul li a:hover {
+	text-decoration: underline;
+}
+
+#secnav li ul ul {
+	margin: -36px 0 0 189px;
+}
+
+#secnav li:hover ul ul, #secnav li.sfhover1 ul ul {
+	left: -999em;
+}
+
+#secnav li:hover ul, #secnav li li:hover ul, #secnav li.sfhover1 ul, #secnav li li.sfhover1 ul {
+	left: auto;
+}
+
+/* IE7 Fix */
+
+#secnav  li:hover, #secnav  li.hover {  
+	position: static;
+}

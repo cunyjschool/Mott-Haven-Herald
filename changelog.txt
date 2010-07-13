@@ -1,0 +1,73 @@
+*** Busy Bee Changelog ***
+
+2009.02.15 - version 1.2.1
+	* style.css - 2nd level page dropdown bug. Fixed #nav li ul ul, #nav li ul ul li a
+
+2009.02.12 - version 1.2
+	* header.php - moved javascript to functions.php
+	  functions.php
+
+2009.02.08 - version 1.1.6
+	* includes/comments.php - changed to get_gravatar() for gravatars in sidebar tab
+	* style.css - added #sidebar .block .inside li img.avatar
+
+2009.01.07 - version 1.1.5
+	* comments.php - Fixed so that "Website (optional)" is removed when submitting comment
+	  comments-legacy.php
+
+2008.12.27 - version 1.1.4
+	* style.css - Fixed IE6/7 bugs in sidebar and post layout (#sidebar .block .inside li, #main-content .post img.thumbnail)
+	  index.php
+	  includes/popular.php
+	  includes/comments.php
+
+2008.12.23 - version 1.1.3
+	* styles/green/bg_middle_content_single.gif - Added missing image
+
+2008.12.22 - version 1.1.2
+  * includes/popular.php - Fixed image link on popular tab
+  * functions/admin-options.php - Options for sidebar tabs popular/comments number of posts to display
+    includes/comments.php
+	includes/popular.php
+
+2008.12.16 - version 1.1.1
+  * functions/admin-style.css - New "2.7" style on admin panel
+    functions.php
+  * style.css - Added image caption styling
+
+2008.12.15 - version 1.1.0
+  * comments.php - New comment loop which adds WP 2.7 features (threaded comments, page navigation)
+	comments-legacy.php
+	functions.php
+	style.css
+	header.php
+  * includes/widgets.php - Fixed html bug (IE7) when adding Woo Video Player
+
+2008.12.10 - version 1.0.5
+  * comments.php - Fixed bug when user must be logged in to comment (sidebar dropped)
+
+2008.12.09 - version 1.0.4
+  * functions/admin-options.php - Added option for displayin latest Twitter feed in header
+	header.php
+	footer.php
+	style.css
+	images/twitter-trans.png
+
+2008.12.09 - version 1.0.3
+  * includes/widgets.php - Changed video player to get the embed code from the Excerpt field instead of the content
+  * archive.php - Shows the Content instead of the Excerpt on video archives
+  * includes/popular.php - Set the number of popular posts to only show 5
+
+2008.12.08 - version 1.0.2
+  * functions/admin-options.php - Added Feedburner ID option (missing)
+
+2008.12.08 - version 1.0.1
+  * functions/admin-options.php - Added Sidebar Video Player widget
+	includes/widgets.php
+	archive.php
+	index.php
+	header.php
+	style.css
+  
+2008.12.08 - version 1.0.0
+  * First release!
